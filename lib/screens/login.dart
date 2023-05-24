@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'admin/admin_homepage.dart';
+//import 'admin/admin_homepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -70,8 +70,8 @@ class _LoginDemoState extends State<LoginDemo> {
               width: 200,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (_) => admin_homepage()));
+                  // Navigator.push(context,
+                  //     MaterialPageRoute(builder: (_) => admin_homepage()));
                 },
                 style: ElevatedButton.styleFrom(
                     primary: Color.fromARGB(255, 124, 181, 24),
